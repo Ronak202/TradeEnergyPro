@@ -1,4 +1,4 @@
-# TradeEnergyPro(Using Linked List Implementation
+**# TradeEnergyPro(Using Linked List Implementation**
 Energy Trading Record Management System for a Smart Grid:
 The goal is to develop a software program that manages energy trading transactions in a smart grid
 environment. Energy trading transactions occur when energy producers (sellers) sell energy to consumers
@@ -6,22 +6,22 @@ environment. Energy trading transactions occur when energy producers (sellers) s
 energy trading operations, manage financial records, and enable efficient trading management within the grid.
 The program will provide functionalities to handle energy trading transactions, each of which is represented by
 the following attributes:
-Transaction Attributes:
->Transaction ID: A unique identifier for each transaction.
-> Buyer ID: The unique ID of the entity buying energy.
-> Seller ID: The unique ID of the entity selling energy. (Reference to seller Node)
-> Amount of Energy (kWh): The amount of energy traded in kilowatt-hours.
-> Price per kWh: The price at which the energy is traded per kilowatt-hour.
-> Timestamp: The date and time when the transaction occurred.
+**Transaction Attributes:**
+1.Transaction ID: A unique identifier for each transaction.
+2.Buyer ID: The unique ID of the entity buying energy.
+3.Seller ID: The unique ID of the entity selling energy. (Reference to seller Node)
+4.Amount of Energy (kWh): The amount of energy traded in kilowatt-hours.
+5. Price per kWh: The price at which the energy is traded per kilowatt-hour.
+6.Timestamp: The date and time when the transaction occurred.
 
 The sellers sell energy at two rates. If the Amount of energy is greater than 300kWh, a different rate is applied.
-Seller Attributes:
-> Seller ID
->Energy rate per kWh below 300
-> Energy rate per kWh above 300
-> List of regular buyers. (LL of buyer IDs) – buyers with more than 5 transactions should be added to this
-list.
-Functional Requirements
+**Seller Attributes:**
+1. Seller ID
+2.Energy rate per kWh below 300
+3.Energy rate per kWh above 300
+4.List of regular buyers. (LL of buyer IDs) – buyers with more than 5 transactions should be added to this list.
+
+**Functional Requirements**
 The program should include the following features:
 1. Add New Transactions: Users should be able to input new energy trading transactions with all the
 specified attributes (Transaction ID, Buyer ID, Seller ID, Amount of Energy, Price per kWh,
